@@ -137,3 +137,8 @@ Then :
 This holds even for small sample sizes mn
 
 ![ex](Example1.png)
+
+**Markov's and Chebyshev's Inequality**
+
+![Mark](Mark.png)
+![ex2](Example2.png)
