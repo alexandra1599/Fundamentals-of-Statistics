@@ -27,3 +27,15 @@ for all continuous bounded functions f.
 
 ![Convergence](ConvergenceEx.png)
 ![Convergence2](ConvergenceExctd.png)
+![Ex](Exercise2.png)
+![Ex2](Exercise3.png)
+
+## Addition, Multiplication, Division :
+
+Can only be used for a.s and P convergences.
+
+Assume $T_n \xrightarrow{\text{a.s,P}} T$ and $U_n \xrightarrow{\text{a.s,P}} U$
+
+1) $T_n + U_n \xrightarrow{a.s} T + U$
+2) $T_n * U_n \xrightarrow{a.s} TU$
+3) If $U ≠ 0$ a.s then $\frac{T_n}{U_n} \xrightarrow{a.s} \frac{T}{U}$
