@@ -25,3 +25,5 @@ $T_n \xrightarrow{\text{d}} T \iff \mathbb{E}(f(T_n)) \xrightarrow{\text{ₙ→�
 
 for all continuous bounded functions f.
 
+![Convergence](ConvergenceEx.png)
+![Convergence2](ConvergenceExctd.png)
