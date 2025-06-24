@@ -21,6 +21,3 @@ If O is infinite dimensional, the model is called **non-parametric**. This doesn
 
 If O = $O_1 + O_2$ with $O_1$ finite dimensional (what we want to estimate) and $O_2$ infinite dimensional (called nuisance parameter), the model is called **semi-parametric**.
 
-## Parametric Models 
-
-1) 
