@@ -10,3 +10,15 @@ The KL divergence between two probability measures $P_{\theta}$ and $P_{\theta_1
 3) If $KL(P_{\theta},P_{\theta_1}) = 0 \rightarrow P_{\theta} = P_{\theta_1}$
 4) $KL(P_{\theta},P_{\theta_1}) ≰ KL(P_{\theta},P_{\theta_2}) + KL(P_{\theta_2},P_{\theta_1})$
 
+## Optimization Problem 
+
+$\min KL(P_{\theta^{\*}},P_{\theta})$
+
+There is a **unique** minimizer, i.e if m is the minimum value of $KL(P_{\theta^{\*}},P_{\theta})$ there is only one value 
+$\theta_{min}$ such that $m = KL(P_{\theta^{\*}},P_{\theta_{min}})$
+
+Here : $\theta_{min} = \theta^{\*}$
+
+Weakly consistent estimator for $E_{\theta^{\*}}(ln p_{\theta}(X)) = \sum_{x \in E} p_{\theta^{\*}} ln p_{\theta}(x)$ is :
+
+$\frac{1}{n} \sum ln(p_{\theta}(X_i))$
