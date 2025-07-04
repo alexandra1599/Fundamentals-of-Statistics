@@ -42,5 +42,5 @@ The TVD between $P_{\theta}$ and $P_{\theta_1}$ is a simple function of $f_{\the
 1) $TV(P_{\theta},P_{\theta_1}) = TV(P_{\theta_1},P_{\theta})$
 2) $TV(P_{\theta},P_{\theta_1}) \geq 0$ , $TV(P_{\theta},P_{\theta_1}) \leq 1$
 3) If $TV(P_{\theta},P_{\theta_1}) = 0 \rightarrow P_{\theta} = P_{\theta_1}$
-4) $TV(P_{\theta},P_{\theta_1}) \leq TV(P_{\theta_1},P_{\theta_2}) + TV(P_{\theta_2},P_{\theta_1})$
+4) $TV(P_{\theta},P_{\theta_1}) \leq TV(P_{\theta},P_{\theta_2}) + TV(P_{\theta_2},P_{\theta_1})$
 
